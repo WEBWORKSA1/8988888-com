@@ -1,0 +1,8 @@
+/* TEAM */
+Site: 8988888.com — The Premium Number Exchange
+Meaning: 发久发发发发发 · Lasting prosperity
+Contact: https://web.works/contact
+
+/* SITE */
+Standards: HTML5, CSS3, vanilla JavaScript
+Hosting: GitHub Pages (Jekyll)
