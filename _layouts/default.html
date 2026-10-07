@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en" data-root="{{ site.baseurl }}/" data-theme="dark">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ page.title | escape }}</title>
+<meta name="description" content="{{ page.description | escape }}">
+<link rel="canonical" href="{{ page.canonical }}">
+<meta name="robots" content="{% if page.robots %}{{ page.robots }}{% else %}index,follow,max-image-preview:large{% endif %}">
+<meta name="theme-color" content="#0a0a0f">
+<meta property="og:type" content="{{ page.ogtype | default: 'website' }}"><meta property="og:site_name" content="8988888.com"><meta property="og:title" content="{{ page.title | escape }}"><meta property="og:description" content="{{ page.description | escape }}"><meta property="og:url" content="{{ page.canonical }}"><meta property="og:image" content="https://8988888.com/assets/img/og.png">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{{ page.title | escape }}"><meta name="twitter:description" content="{{ page.description | escape }}"><meta name="twitter:image" content="https://8988888.com/assets/img/og.png">
+<link rel="icon" href="{{ site.baseurl }}/assets/img/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/img/favicon.svg"><link rel="manifest" href="{{ site.baseurl }}/site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css?v={{ site.version }}">
+<script>document.documentElement.classList.add("js");try{document.documentElement.setAttribute("data-theme",localStorage.getItem("theme")||"dark")}catch(e){}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://8988888.com/#org", "name": "8988888.com", "url": "https://8988888.com/", "logo": "https://8988888.com/assets/img/logo.svg", "description": "Premium Number Exchange — lucky, vanity and premium numbers hub."}, {"@type": "WebSite", "@id": "https://8988888.com/#site", "url": "https://8988888.com/", "name": "8988888 · The Premium Number Exchange", "publisher": {"@id": "https://8988888.com/#org"}}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="interest-bar"><a href="https://web.works/contact" target="_blank" rel="noopener">Contact</a>, if you are interested in this website / domain name / Sponsorship / Advertisement / Partnership</div>
+<header class="site-header"><div class="container nav">
+<a class="brand" href="{{ site.baseurl }}/index.html" aria-label="8988888 home"><svg viewBox="0 0 48 48" aria-hidden="true"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffd77a"/><stop offset=".55" stop-color="#e8b94a"/><stop offset="1" stop-color="#b8740f"/></linearGradient></defs><rect x="2" y="2" width="44" height="44" rx="12" fill="#14080a" stroke="url(#lg)" stroke-width="2.5"/><text x="24" y="33" text-anchor="middle" font-family="Outfit,Arial,sans-serif" font-weight="800" font-size="26" fill="url(#lg)">89</text></svg><span>8988888<small>Premium Number Exchange</small></span></a>
+<ul class="menu" id="menu">
+<li><button class="dd" aria-haspopup="true">Tools ▾</button><ul class="sub"><li><a href="{{ site.baseurl }}/tools/index.html"><b>All tools</b></a></li><li><a href="{{ site.baseurl }}/tools/number-valuator.html">💎 Number Value Estimator</a></li><li><a href="{{ site.baseurl }}/tools/luck-scorer.html">🧧 Chinese Luck Scorer</a></li><li><a href="{{ site.baseurl }}/tools/vanity-converter.html">☎️ Vanity Number Converter</a></li><li><a href="{{ site.baseurl }}/tools/lucky-number-finder.html">🔎 Lucky Number Finder</a></li><li><a href="{{ site.baseurl }}/tools/plate-builder.html">🚘 Licence Plate Builder</a></li><li><a href="{{ site.baseurl }}/tools/lucky-price.html">🏷️ Lucky Price Generator</a></li><li><a href="{{ site.baseurl }}/tools/hongbao-calculator.html">🧧 Red Envelope Calculator</a></li></ul></li>
+<li><a href="{{ site.baseurl }}/records.html">Records</a></li>
+<li><button class="dd" aria-haspopup="true">Learn ▾</button><ul class="sub">
+<li><a href="{{ site.baseurl }}/the-8988888-story.html">The 8988888 Story</a></li>
+<li><a href="{{ site.baseurl }}/guides/index.html"><b>All guides</b></a></li>
+<li><a href="{{ site.baseurl }}/guides/chinese-number-meanings.html">Number meanings 0–9</a></li>
+<li><a href="{{ site.baseurl }}/guides/toll-free-vanity-numbers.html">Toll-free & vanity numbers</a></li>
+<li><a href="{{ site.baseurl }}/guides/licence-plate-auctions.html">Plate auctions worldwide</a></li>
+<li><a href="{{ site.baseurl }}/guides/premium-mobile-numbers.html">Premium mobile numbers</a></li>
+<li><a href="{{ site.baseurl }}/guides/lucky-number-economics.html">Lucky-number economics</a></li>
+<li><a href="{{ site.baseurl }}/videos.html">Video hub</a></li></ul></li>
+<li><a href="{{ site.baseurl }}/marketplace.html">List & Sell</a></li>
+<li><button class="dd" aria-haspopup="true">Community ▾</button><ul class="sub">
+<li><a href="{{ site.baseurl }}/contests.html">8888 Challenge (contests)</a></li><li><a href="{{ site.baseurl }}/donate.html">Support us</a></li>
+<li><a href="{{ site.baseurl }}/careers.html">Careers & creators</a></li><li><a href="{{ site.baseurl }}/advertise.html">Advertise & sponsor</a></li>
+<li><a href="{{ site.baseurl }}/about.html">About</a></li><li><a href="{{ site.baseurl }}/contact.html">Contact</a></li></ul></li>
+</ul>
+<div class="nav-actions"><a class="btn btn-gold btn-sm" href="{{ site.baseurl }}/concierge.html">Get a lucky number</a><button class="icon-btn" id="themeToggle" aria-label="Toggle light/dark theme">☀</button><button class="icon-btn burger" id="burger" aria-label="Menu" aria-expanded="false" aria-controls="menu">☰</button></div>
+</div></header>
+<main id="main">
+{{ content }}
+</main>
+<footer class="site-footer"><div class="container"><div class="footer-grid">
+<div><a class="brand" href="{{ site.baseurl }}/index.html"><svg viewBox="0 0 48 48" aria-hidden="true"><defs><linearGradient id="lg2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffd77a"/><stop offset=".55" stop-color="#e8b94a"/><stop offset="1" stop-color="#b8740f"/></linearGradient></defs><rect x="2" y="2" width="44" height="44" rx="12" fill="#14080a" stroke="url(#lg2)" stroke-width="2.5"/><text x="24" y="33" text-anchor="middle" font-family="Outfit,Arial,sans-serif" font-weight="800" font-size="26" fill="url(#lg2)">89</text></svg><span>8988888<small>Premium Number Exchange</small></span></a>
+<p class="muted" style="margin-top:12px">The world's reference hub for lucky, vanity and premium numbers — phone numbers, licence plates, prices and numeric domains. Free tools, verified records, and a concierge that finds the number you want.</p>
+<form class="newsletter" data-form="Newsletter signup" data-ok="You're on the list — the next Lucky Ledger lands Friday."><input type="email" name="email" required placeholder="Email for the weekly Lucky Ledger" aria-label="Email"><input type="text" name="_gotcha" class="hp" tabindex="-1" autocomplete="off"><button class="btn btn-gold btn-sm" type="submit">Join</button><div class="form-msg" role="status"></div></form></div>
+<div><h4>Tools</h4><ul>
+<li><a href="{{ site.baseurl }}/tools/number-valuator.html">Value estimator</a></li><li><a href="{{ site.baseurl }}/tools/luck-scorer.html">Luck scorer</a></li><li><a href="{{ site.baseurl }}/tools/vanity-converter.html">Vanity converter</a></li><li><a href="{{ site.baseurl }}/tools/lucky-number-finder.html">Number finder</a></li><li><a href="{{ site.baseurl }}/tools/plate-builder.html">Plate builder</a></li><li><a href="{{ site.baseurl }}/tools/lucky-price.html">Lucky prices</a></li><li><a href="{{ site.baseurl }}/tools/hongbao-calculator.html">Red envelopes</a></li></ul></div>
+<div><h4>Learn</h4><ul><li><a href="{{ site.baseurl }}/the-8988888-story.html">The 8988888 story</a></li><li><a href="{{ site.baseurl }}/records.html">Hall of records</a></li><li><a href="{{ site.baseurl }}/guides/index.html">Guides</a></li><li><a href="{{ site.baseurl }}/videos.html">Videos</a></li><li><a href="{{ site.baseurl }}/faq.html">FAQ</a></li><li><a href="{{ site.baseurl }}/methodology.html">How we score</a></li></ul></div>
+<div><h4>Services</h4><ul><li><a href="{{ site.baseurl }}/concierge.html">Number concierge</a></li><li><a href="{{ site.baseurl }}/concierge.html#phone">Business phone quotes</a></li><li><a href="{{ site.baseurl }}/marketplace.html">List & sell</a></li><li><a href="{{ site.baseurl }}/advertise.html">Advertise</a></li><li><a href="{{ site.baseurl }}/contests.html">Contests</a></li><li><a href="{{ site.baseurl }}/donate.html">Donate</a></li></ul></div>
+<div><h4>Company</h4><ul><li><a href="{{ site.baseurl }}/about.html">About</a></li><li><a href="{{ site.baseurl }}/careers.html">Careers</a></li><li><a href="{{ site.baseurl }}/contact.html">Contact</a></li><li><a href="{{ site.baseurl }}/legal.html">Trademark & copyright</a></li><li><a href="{{ site.baseurl }}/privacy.html">Privacy</a></li><li><a href="{{ site.baseurl }}/terms.html">Terms</a></li><li><a href="https://web.works/contact" target="_blank" rel="noopener">Buy / partner</a></li></ul></div>
+</div>
+<div class="legal-line"><span>© <span data-year>2026</span> 8988888.com · All rights reserved. “8988888” is used as a descriptive numeral; no trademark is claimed. Not affiliated with any carrier, registry, auction house or government. <a href="{{ site.baseurl }}/legal.html">Disclosures</a>.</span><span>Tools are informational, not appraisals or financial advice.</span></div>
+</div></footer>
+<div class="consent" id="consent" role="dialog" aria-label="Cookie consent"><b>Cookies & ads</b><p class="small" style="margin:.4em 0 0">We use cookies for analytics and to show ads (Google AdSense). Choose “Accept all” for personalised ads or “Essential only” for non-personalised ads. <a href="{{ site.baseurl }}/privacy.html">Privacy policy</a>.</p><div class="row"><button class="btn btn-gold btn-sm" data-consent="all">Accept all</button><button class="btn btn-ghost btn-sm" data-consent="essential">Essential only</button></div></div>
+<div class="toast" id="leadToast" role="status"><b>Own a lucky number, plate or numeric domain?</b><p class="small muted" style="margin:.3em 0 .6em">Get a free valuation from our team — takes 60 seconds.</p><a class="btn btn-gold btn-sm" href="{{ site.baseurl }}/concierge.html#sell">Free valuation</a> <button class="btn btn-ghost btn-sm" data-toast-close>Later</button></div>
+<div class="modal" id="quickLead" role="dialog" aria-modal="true" aria-labelledby="qlT"><div class="modal-box"><button class="icon-btn modal-close" aria-label="Close">✕</button>
+<h3 id="qlT">Tell us the number you want</h3><p class="muted small">Lucky mobile number, vanity business line, licence plate or numeric domain — our concierge replies within 1 business day.</p>
+<form data-form="Quick concierge request"><div class="field"><label for="ql-n">Number / word / plate you want</label><input id="ql-n" name="wanted" required placeholder="e.g. 8988888, 1-800-LUCKY, plate 88"></div>
+<div class="grid-2"><div class="field"><label for="ql-name">Name</label><input id="ql-name" name="name" required autocomplete="name"></div><div class="field"><label for="ql-e">Email</label><input id="ql-e" type="email" name="email" required autocomplete="email"></div></div>
+<div class="field"><label for="ql-b">Budget</label><select id="ql-b" name="budget"><option>Under $500</option><option>$500 – $5,000</option><option>$5,000 – $50,000</option><option>$50,000+</option><option>Not sure yet</option></select></div>
+<input type="text" name="_gotcha" class="hp" tabindex="-1" autocomplete="off"><button class="btn btn-gold btn-block" type="submit">Send request</button><div class="form-msg" role="status"></div></form></div></div>
+<button class="icon-btn to-top" id="toTop" aria-label="Back to top">↑</button>
+<script src="{{ site.baseurl }}/assets/js/config.js?v={{ site.version }}"></script>
+<script src="{{ site.baseurl }}/assets/js/main.js?v={{ site.version }}" defer></script>
+<script src="{{ site.baseurl }}/assets/js/tools.js?v={{ site.version }}" defer></script>
+</body></html>

@@ -1,0 +1,7 @@
+# 8988888.com — GitHub Pages (Jekyll) settings
+title: "8988888 · The Premium Number Exchange"
+# Project URL: webworksa1.github.io/8988888-com. When the custom domain 8988888.com is live, set: baseurl: ""
+baseurl: "/8988888-com"
+url: "https://8988888.com"
+version: "20261007"
+exclude: [README.md, RESEARCH.md, BUILD-PROMPTS.md, scripts, Gemfile, Gemfile.lock, node_modules]
